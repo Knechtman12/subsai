@@ -107,10 +107,11 @@ _Quoted from the official openai/whisper installation_
 ```shell
 pip install git+https://github.com/abdeladim-s/subsai
 ```
-WEHEN IT DOSE NOT DETECT THE GPU CHECK YOUR CUDA VERSION VIA nvidia-smi
+WEHEN IT DOSE NOT DETECT THE GPU CHECK YOUR CUDA VERSION VIA `nvidia-smi`
 generate the correct pytorch version for you using this https://pytorch.org/get-started/locally/
 then do 
 ```shell
+nvidia-smi
 pip uninstall torch
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 ```
